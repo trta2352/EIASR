@@ -13,6 +13,7 @@
 		7843BFD321DE5F8F00116E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7843BFD221DE5F8F00116E89 /* Assets.xcassets */; };
 		7843BFD621DE5F8F00116E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7843BFD421DE5F8F00116E89 /* LaunchScreen.storyboard */; };
 		7843BFE121DE5F8F00116E89 /* EIASRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7843BFE021DE5F8F00116E89 /* EIASRTests.swift */; };
+		78F2C41921DF8C0D00244AB5 /* HandSigns.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 78F2C41821DF8C0C00244AB5 /* HandSigns.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		7843BFDC21DE5F8F00116E89 /* EIASRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EIASRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7843BFE021DE5F8F00116E89 /* EIASRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EIASRTests.swift; sourceTree = "<group>"; };
 		7843BFE221DE5F8F00116E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78F2C41821DF8C0C00244AB5 /* HandSigns.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = HandSigns.mlmodel; path = Model/HandSigns.mlmodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				7843BFCB21DE5F8D00116E89 /* AppDelegate.swift */,
 				7843BFCD21DE5F8D00116E89 /* ViewController.swift */,
 				7843BFCF21DE5F8D00116E89 /* Main.storyboard */,
+				78F2C41821DF8C0C00244AB5 /* HandSigns.mlmodel */,
 				7843BFD221DE5F8F00116E89 /* Assets.xcassets */,
 				7843BFD421DE5F8F00116E89 /* LaunchScreen.storyboard */,
 				7843BFD721DE5F8F00116E89 /* Info.plist */,
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F2C41921DF8C0D00244AB5 /* HandSigns.mlmodel in Sources */,
 				7843BFCE21DE5F8D00116E89 /* ViewController.swift in Sources */,
 				7843BFCC21DE5F8D00116E89 /* AppDelegate.swift in Sources */,
 			);
