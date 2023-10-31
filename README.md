@@ -2,7 +2,7 @@
 
 Application was developed as the final project at the subject IASR (Image And Speech Recognition). 
 
-The model is build using the CORE ML Model (https://developer.apple.com/machine-learning/models/) and recognized:
+The model is build using the CORE ML Model (https://developer.apple.com/machine-learning/models/) and recognizes:
 - :fist:, 
 - :hand:, 
 - :v:
